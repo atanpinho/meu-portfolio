@@ -1,0 +1,65 @@
+
+/* ========================================
+   IDENTIDADE VISUAL
+   Preto, branco e ouro
+======================================== */
+
+/* Configurações gerais da página */
+body {
+    background-color: #101010;
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ========================================
+   CABEÇALHO
+======================================== */
+
+header {
+    background-color: #101010 !important;
+    border-bottom: 1px solid #C5A253;
+}
+
+/* Nome no cabeçalho */
+header h1 {
+    color: #C5A253;
+    font-weight: 700;
+}
+
+/* Links do menu */
+header nav a {
+    color: #F5F5F5 !important;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+header nav a:hover {
+    color: #C5A253 !important;
+}
+
+/* ========================================
+   SEÇÃO SOBRE
+======================================== */
+
+#sobre {
+    background-color: #101010;
+}
+
+/* Título da seção */
+#sobre h2 {
+    color: #C5A253;
+    font-weight: 700;
+}
+
+/* Texto de apresentação */
+#sobre p {
+    color: #D6D6D6;
+    line-height: 1.8;
+}
+
+/* Destaque do primeiro parágrafo */
+#sobre .lead {
+    color: #F5F5F5;
+    font-size: 1.2rem;
+}
